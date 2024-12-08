@@ -1,7 +1,7 @@
 ---
 title: "Qianping Wu"
 about:
-  template: trestles
+  template: jolla
   image: profile.jpg
   links:
     - icon: github
@@ -10,12 +10,10 @@ about:
     - text: Email
       url: "mailto:qianpingwu@g.ucla.edu"
       icon: inbox-fill
-    - text: LinkedIn
-      url: "https://linkedin.com"
 toc: false
 ---
 
-Qianping Wu (Alice) is an international student from China. I am an undergraduate student at UCLA and expect to graduate in March 2025. I have been studying in the United States for 6 years. My major is Statistics & Data Science, and I look forward to a job (Statistics, Business Analysis, Data Analysis, Data Science, etc) to gain more professional knowledge and work experience and also want to use what I learned in class in real life.
+Qianping Wu (Alice) is an international student from China. I am an undergraduate student at UCLA and expect to graduate in June 2025. I have been studying in the United States for 6 years. My major is Statistics & Data Science, and I look forward to a job (Statistics, Business Analysis, Data Analysis, Data Science, etc) to gain more professional knowledge and work experience and also want to use what I learned in class in real life.
 
 CLICK [CV](/cv.pdf)
 
