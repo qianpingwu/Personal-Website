@@ -1,11 +1,36 @@
 ---
-title: "Personal_Website"
+title: "Qianping Wu"
+about:
+  template: trestles
+  # image: profile-pic.png
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/qianpingwu
+    - text: Email
+      url: "mailto:qianpingwu@g.ucla.edu"
+      icon: inbox-fill
+    - text: LinkedIn
+      url: "https://linkedin.com"
+toc: false
 ---
 
-This is a Quarto website.
+Qianping Wu (Alice) is an international student from China. I am an undergraduate student at UCLA and expect to graduate in March 2025. I have been studying in the United States for 6 years. My major is Statistics & Data Science, and I look forward to a job (Statistics, Business Analysis, Data Analysis, Data Science, etc) to gain more professional knowledge and work experience and also want to use what I learned in class in real life.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+CLICK [CV](/cv.pdf)
 
-```{r}
-1 + 3
-```
+## Education
+
+University of California, Los Angeles | Los Angeles, CA
+B.A in Statistics and Data Science | Sept 2023 - June 2025
+
+University of California, Davis | Davis, CA
+Extension | Sept 201 - June 2023
+
+## Experience
+
+Bureau of Statistics of China in Yugan, Yugan, Jiangxi, China | Assistant Data Collector and Analyst | July 2024 - Spet 2024
+
+Bureau of Statistics of China in Yugan, Yugan, Jiangxi, China | Assistant Data Analyst | July 2023 - August 2023
+
+Xinhua Bookstore, Yugan, Jiangxi, China | Assistant Data Analyst | March 2012 - July 2021

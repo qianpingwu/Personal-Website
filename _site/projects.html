@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Qianping Wu</title>
+<title>projects – Qianping Wu</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,9 +30,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -65,7 +68,65 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-project-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-project-listing'] = new List('listing-project-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -88,11 +149,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
+    <a class="nav-link active" href="./projects.html" aria-current="page"> 
 <span class="menu-text">Projects</span></a>
   </li>  
 </ul>
@@ -108,48 +169,55 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-trestles">
-  <div class="about-entity">
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Qianping Wu</h1>
-</div>
-<div class="quarto-title-meta">
-  </div>
-</header>
-    <div class="about-links">
-  <a href="https://github.com/qianpingwu" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">Github</span>
-  </a>
-  <a href="mailto:qianpingwu@g.ucla.edu" class="about-link" rel="" target="">
-    <i class="bi bi-inbox-fill"></i>
-     <span class="about-link-text">Email</span>
-  </a>
-  <a href="https://linkedin.com" class="about-link" rel="" target="">
-     <span class="about-link-text">LinkedIn</span>
-  </a>
-</div>
-  </div>
-  <div class="about-contents"><main class="content" id="quarto-document-content">
-<p>Qianping Wu (Alice) is an international student from China. I am an undergraduate student at UCLA and expect to graduate in March 2025. I have been studying in the United States for 6 years. My major is Statistics &amp; Data Science, and I look forward to a job (Statistics, Business Analysis, Data Analysis, Data Science, etc) to gain more professional knowledge and work experience and also want to use what I learned in class in real life.</p>
-<p>CLICK <a href="./cv.pdf">CV</a></p>
-<section id="education" class="level2">
-<h2 data-anchor-id="education">Education</h2>
-<p>University of California, Los Angeles | Los Angeles, CA B.A in Statistics and Data Science | Sept 2023 - June 2025</p>
-<p>University of California, Davis | Davis, CA Extension | Sept 201 - June 2023</p>
-</section>
-<section id="experience" class="level2">
-<h2 data-anchor-id="experience">Experience</h2>
-<p>Bureau of Statistics of China in Yugan, Yugan, Jiangxi, China | Assistant Data Collector and Analyst | July 2024 - Spet 2024</p>
-<p>Bureau of Statistics of China in Yugan, Yugan, Jiangxi, China | Assistant Data Analyst | July 2023 - August 2023</p>
-<p>Xinhua Bookstore, Yugan, Jiangxi, China | Assistant Data Analyst | March 2012 - July 2021</p>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
-</section>
-</main></div>
+
+
+<div class="project-listing">
+
 </div>
- <!-- /main -->
+
+
+
+
+<div class="quarto-listing quarto-listing-container-table" id="listing-project-listing">
+<div class="listing-actions-group">
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+Title
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-listing-file-modified-sort="1733625228515" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Project 1" data-listing-filename-sort="01-project.qmd">
+<td>
+<a href="./projects/01-project.html" class="title listing-title">Project 1</a>
+</td>
+</tr>
+<tr data-index="1" data-listing-file-modified-sort="1733626022529" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Project 2" data-listing-filename-sort="02-project.qmd">
+<td>
+<a href="./projects/02-project.html" class="title listing-title">Project 2</a>
+</td>
+</tr>
+<tr data-index="2" data-listing-file-modified-sort="1733626038547" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Project 3" data-listing-filename-sort="03-project.qmd">
+<td>
+<a href="./projects/03-project.html" class="title listing-title">Project 3</a>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -170,6 +238,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

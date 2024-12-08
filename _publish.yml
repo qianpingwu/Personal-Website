@@ -1,4 +1,4 @@
 - source: project
   netlify:
     - id: d31feac7-1f84-4612-89fc-5ebf658f873c
-      url: https://willowy-croquembouche-5f05f2.netlify.app
+      url: 'https://qianpingwu.netlify.app'
