@@ -2,7 +2,7 @@
 title: "Qianping Wu"
 about:
   template: trestles
-  # image: profile-pic.png
+  image: profile.jpg
   links:
     - icon: github
       text: Github

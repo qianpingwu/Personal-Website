@@ -2,5 +2,14 @@
 title: Project 1
 ---
 
-Introfuction:
+Introduction: This study explores the impact of gravity on facial anatomy, specifically focusing on changes in astronauts’ eyelid and eyebrow heights under different gravitational conditions.
 
+- Eyelid Height: Analyzed for changes in muscle tension and soft tissue.
+
+- Eyebrow Height: Examined for alterations in muscle tone or vascular structure.
+
+- Correlations: Investigated shared mechanisms between eyelid and eyebrow adaptations.
+
+Using a dataset provided by the Jules Stein Eye Institute, this research compares facial measurements of astronauts on Earth and in space. By uncovering the effects of microgravity, the study aims to advance our understanding of human adaptation to space environments, contributing valuable insights for long-term space missions and astronaut health.
+
+[Project Poster with Analysis](/projects/Poster_140xp.pdf)
