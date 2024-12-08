@@ -2,4 +2,8 @@
 title: Project 3
 ---
 
-Introduction:
+This project explores the key factors influencing student academic performance using a dataset comprising 10,000 student records. The dataset includes a comprehensive set of predictors such as study hours, previous scores, participation in extracurricular activities, sleep patterns, and the number of sample question papers practiced. The response variable, termed the "Performance Index," quantifies a student’s academic achievement on a scale from 10 to 100, with higher values indicating better performance.
+
+Through this analysis, we aim to uncover the relative importance of these predictors and their individual and collective impact on academic success. Using statistical modeling, correlation analysis, and diagnostic plots, the study identifies significant relationships and highlights actionable insights for students striving to improve their performance. The findings emphasize the multifaceted nature of academic achievement, underscoring the importance of balanced effort across various domains.
+
+For more detials, it could be find in [Data Analysis](/projects/101A Final Project.pdf)

@@ -25,14 +25,14 @@
     "href": "projects/03-project.html",
     "title": "Project 3",
     "section": "",
-    "text": "Introduction:"
+    "text": "This project explores the key factors influencing student academic performance using a dataset comprising 10,000 student records. The dataset includes a comprehensive set of predictors such as study hours, previous scores, participation in extracurricular activities, sleep patterns, and the number of sample question papers practiced. The response variable, termed the “Performance Index,” quantifies a student’s academic achievement on a scale from 10 to 100, with higher values indicating better performance.\nThrough this analysis, we aim to uncover the relative importance of these predictors and their individual and collective impact on academic success. Using statistical modeling, correlation analysis, and diagnostic plots, the study identifies significant relationships and highlights actionable insights for students striving to improve their performance. The findings emphasize the multifaceted nature of academic achievement, underscoring the importance of balanced effort across various domains.\nFor more detials, it could be find in Data Analysis"
   },
   {
     "objectID": "projects/02-project.html",
     "href": "projects/02-project.html",
     "title": "Project 2",
     "section": "",
-    "text": "Introduction:"
+    "text": "Accurately predicting game outcomes has become a cornerstone of sports analytics, offering valuable insights to teams, coaches, and fans. This project focuses on predicting NBA game results for the 2023-2024 season by leveraging historical game data and advanced analytical techniques.\nTo enhance predictive accuracy, key features such as home-court advantage, team performance consistency, prior matchup results, and pre-game average scores are engineered. Variable selection methods like lasso regression and random forest permutation are utilized to identify the most impactful predictors.\nA diverse range of modeling techniques, including logistic regression, decision trees, QDA, ridge regression, and Support Vector Machines, are tested and evaluated using train-test splits to ensure robust performance on unseen data. The ultimate goal is to exceed the baseline accuracy of 65% while uncovering deeper insights into the factors influencing NBA game outcomes.\nFor more detials, it could be find in Data Report"
   },
   {
     "objectID": "projects/01-project.html",

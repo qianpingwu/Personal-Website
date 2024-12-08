@@ -2,4 +2,10 @@
 title: Project 2
 ---
 
-Introduction:
+Accurately predicting game outcomes has become a cornerstone of sports analytics, offering valuable insights to teams, coaches, and fans. This project focuses on predicting NBA game results for the 2023-2024 season by leveraging historical game data and advanced analytical techniques. 
+
+To enhance predictive accuracy, key features such as home-court advantage, team performance consistency, prior matchup results, and pre-game average scores are engineered. Variable selection methods like lasso regression and random forest permutation are utilized to identify the most impactful predictors. 
+
+A diverse range of modeling techniques, including logistic regression, decision trees, QDA, ridge regression, and Support Vector Machines, are tested and evaluated using train-test splits to ensure robust performance on unseen data. The ultimate goal is to exceed the baseline accuracy of 65% while uncovering deeper insights into the factors influencing NBA game outcomes.
+
+For more detials, it could be find in [Data Report](/projects/Stats101C Final Report .pdf)
