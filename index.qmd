@@ -15,7 +15,7 @@ toc: false
 
 Qianping Wu (Alice) is an international student from China. I am an undergraduate student at UCLA and expect to graduate in June 2025. I have been studying in the United States for 6 years. My major is Statistics & Data Science, and I look forward to a job (Statistics, Business Analysis, Data Analysis, Data Science, etc) to gain more professional knowledge and work experience and also want to use what I learned in class in real life.
 
-CLICK [CV](/cv.pdf)
+View and download my [CV](/cv.pdf)
 
 ## Education
 
@@ -23,7 +23,7 @@ University of California, Los Angeles | Los Angeles, CA
 B.A in Statistics and Data Science | Sept 2023 - June 2025
 
 University of California, Davis | Davis, CA
-Extension | Sept 201 - June 2023
+Extension | Sept 2021 - June 2023
 
 ## Experience
 
@@ -31,4 +31,4 @@ Bureau of Statistics of China in Yugan, Yugan, Jiangxi, China | Assistant Data C
 
 Bureau of Statistics of China in Yugan, Yugan, Jiangxi, China | Assistant Data Analyst | July 2023 - August 2023
 
-Xinhua Bookstore, Yugan, Jiangxi, China | Assistant Data Analyst | March 2012 - July 2021
+Xinhua Bookstore, Yugan, Jiangxi, China | Assistant Data Analyst | March 2021 - July 2021

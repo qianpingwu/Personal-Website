@@ -1,5 +1,5 @@
 ---
-title: Project 3
+title: Analyzing Factors Influencing Academic Performance in Students
 ---
 
 This project explores the key factors influencing student academic performance using a dataset comprising 10,000 student records. The dataset includes a comprehensive set of predictors such as study hours, previous scores, participation in extracurricular activities, sleep patterns, and the number of sample question papers practiced. The response variable, termed the "Performance Index," quantifies a student’s academic achievement on a scale from 10 to 100, with higher values indicating better performance.

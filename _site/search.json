@@ -4,48 +4,48 @@
     "href": "index.html",
     "title": "Qianping Wu",
     "section": "",
-    "text": "Qianping Wu (Alice) is an international student from China. I am an undergraduate student at UCLA and expect to graduate in June 2025. I have been studying in the United States for 6 years. My major is Statistics & Data Science, and I look forward to a job (Statistics, Business Analysis, Data Analysis, Data Science, etc) to gain more professional knowledge and work experience and also want to use what I learned in class in real life.\nCLICK CV"
+    "text": "Qianping Wu (Alice) is an international student from China. I am an undergraduate student at UCLA and expect to graduate in June 2025. I have been studying in the United States for 6 years. My major is Statistics & Data Science, and I look forward to a job (Statistics, Business Analysis, Data Analysis, Data Science, etc) to gain more professional knowledge and work experience and also want to use what I learned in class in real life.\nView and download my CV"
   },
   {
     "objectID": "index.html#education",
     "href": "index.html#education",
     "title": "Qianping Wu",
     "section": "Education",
-    "text": "Education\nUniversity of California, Los Angeles | Los Angeles, CA B.A in Statistics and Data Science | Sept 2023 - June 2025\nUniversity of California, Davis | Davis, CA Extension | Sept 201 - June 2023"
+    "text": "Education\nUniversity of California, Los Angeles | Los Angeles, CA B.A in Statistics and Data Science | Sept 2023 - June 2025\nUniversity of California, Davis | Davis, CA Extension | Sept 2021 - June 2023"
   },
   {
     "objectID": "index.html#experience",
     "href": "index.html#experience",
     "title": "Qianping Wu",
     "section": "Experience",
-    "text": "Experience\nBureau of Statistics of China in Yugan, Yugan, Jiangxi, China | Assistant Data Collector and Analyst | July 2024 - Spet 2024\nBureau of Statistics of China in Yugan, Yugan, Jiangxi, China | Assistant Data Analyst | July 2023 - August 2023\nXinhua Bookstore, Yugan, Jiangxi, China | Assistant Data Analyst | March 2012 - July 2021"
+    "text": "Experience\nBureau of Statistics of China in Yugan, Yugan, Jiangxi, China | Assistant Data Collector and Analyst | July 2024 - Spet 2024\nBureau of Statistics of China in Yugan, Yugan, Jiangxi, China | Assistant Data Analyst | July 2023 - August 2023\nXinhua Bookstore, Yugan, Jiangxi, China | Assistant Data Analyst | March 2021 - July 2021"
   },
   {
     "objectID": "projects/03-project.html",
     "href": "projects/03-project.html",
-    "title": "Project 3",
+    "title": "Analyzing Factors Influencing Academic Performance in Students",
     "section": "",
     "text": "This project explores the key factors influencing student academic performance using a dataset comprising 10,000 student records. The dataset includes a comprehensive set of predictors such as study hours, previous scores, participation in extracurricular activities, sleep patterns, and the number of sample question papers practiced. The response variable, termed the “Performance Index,” quantifies a student’s academic achievement on a scale from 10 to 100, with higher values indicating better performance.\nThrough this analysis, we aim to uncover the relative importance of these predictors and their individual and collective impact on academic success. Using statistical modeling, correlation analysis, and diagnostic plots, the study identifies significant relationships and highlights actionable insights for students striving to improve their performance. The findings emphasize the multifaceted nature of academic achievement, underscoring the importance of balanced effort across various domains.\nFor more detials, it could be find in Data Analysis"
   },
   {
     "objectID": "projects/02-project.html",
     "href": "projects/02-project.html",
-    "title": "Project 2",
+    "title": "Prediction of NBA Game Outcomes",
     "section": "",
     "text": "Accurately predicting game outcomes has become a cornerstone of sports analytics, offering valuable insights to teams, coaches, and fans. This project focuses on predicting NBA game results for the 2023-2024 season by leveraging historical game data and advanced analytical techniques.\nTo enhance predictive accuracy, key features such as home-court advantage, team performance consistency, prior matchup results, and pre-game average scores are engineered. Variable selection methods like lasso regression and random forest permutation are utilized to identify the most impactful predictors.\nA diverse range of modeling techniques, including logistic regression, decision trees, QDA, ridge regression, and Support Vector Machines, are tested and evaluated using train-test splits to ensure robust performance on unseen data. The ultimate goal is to exceed the baseline accuracy of 65% while uncovering deeper insights into the factors influencing NBA game outcomes.\nFor more detials, it could be find in Data Report"
   },
   {
     "objectID": "projects/01-project.html",
     "href": "projects/01-project.html",
-    "title": "Project 1",
+    "title": "Gravity’s Influence on Astronauts’ Eyelid and Eyebrow Heights",
     "section": "",
-    "text": "Introduction: This study explores the impact of gravity on facial anatomy, specifically focusing on changes in astronauts’ eyelid and eyebrow heights under different gravitational conditions.\n\nEyelid Height: Analyzed for changes in muscle tension and soft tissue.\nEyebrow Height: Examined for alterations in muscle tone or vascular structure.\nCorrelations: Investigated shared mechanisms between eyelid and eyebrow adaptations.\n\nUsing a dataset provided by the Jules Stein Eye Institute, this research compares facial measurements of astronauts on Earth and in space. By uncovering the effects of microgravity, the study aims to advance our understanding of human adaptation to space environments, contributing valuable insights for long-term space missions and astronaut health.\nProject Poster with Analysis"
+    "text": "This study explores the impact of gravity on facial anatomy, specifically focusing on changes in astronauts’ eyelid and eyebrow heights under different gravitational conditions.\n\nEyelid Height: Analyzed for changes in muscle tension and soft tissue.\nEyebrow Height: Examined for alterations in muscle tone or vascular structure.\nCorrelations: Investigated shared mechanisms between eyelid and eyebrow adaptations.\n\nUsing a dataset provided by the Jules Stein Eye Institute, this research compares facial measurements of astronauts on Earth and in space. By uncovering the effects of microgravity, the study aims to advance our understanding of human adaptation to space environments, contributing valuable insights for long-term space missions and astronaut health.\nProject Poster with Analysis"
   },
   {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Qianping Wu",
     "section": "",
-    "text": "Title\n\n\n\n\n\n\nProject 1\n\n\n\n\nProject 2\n\n\n\n\nProject 3\n\n\n\n\n\nNo matching items"
+    "text": "Title\n\n\n\n\n\n\nGravity’s Influence on Astronauts’ Eyelid and Eyebrow Heights\n\n\n\n\nPrediction of NBA Game Outcomes\n\n\n\n\nAnalyzing Factors Influencing Academic Performance in Students\n\n\n\n\n\nNo matching items"
   }
 ]

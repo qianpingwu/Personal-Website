@@ -1,8 +1,8 @@
 ---
-title: Project 1
+title: Gravity’s Influence on Astronauts’ Eyelid and Eyebrow Heights
 ---
 
-Introduction: This study explores the impact of gravity on facial anatomy, specifically focusing on changes in astronauts’ eyelid and eyebrow heights under different gravitational conditions.
+This study explores the impact of gravity on facial anatomy, specifically focusing on changes in astronauts’ eyelid and eyebrow heights under different gravitational conditions.
 
 - Eyelid Height: Analyzed for changes in muscle tension and soft tissue.
 

@@ -1,5 +1,5 @@
 ---
-title: Project 2
+title: Prediction of NBA Game Outcomes
 ---
 
 Accurately predicting game outcomes has become a cornerstone of sports analytics, offering valuable insights to teams, coaches, and fans. This project focuses on predicting NBA game results for the 2023-2024 season by leveraging historical game data and advanced analytical techniques. 
